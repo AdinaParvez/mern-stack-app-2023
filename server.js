@@ -11,7 +11,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 // Configure env
-require('dotenv').config();
+dotenv.config()
 console.log(process.env.PORT);
 
 
