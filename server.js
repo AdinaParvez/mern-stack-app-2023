@@ -11,7 +11,9 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 // Configure env
-dotenv.config();
+require('dotenv').config();
+console.log(process.env.PORT);
+
 
 // Database config
 connectDB();
